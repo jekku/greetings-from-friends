@@ -1,14 +1,16 @@
-var maxElements = 210;
-var colors = ['#FF324A', '#31FFA6', '#206EFF', '#FFFF99'];
+var maxElements = 16;
+var colors = ['#F25F5C', '#FFE066', '#247BAO', '#70C1B3'];
 
 var createElements = (function() {
-  var sectionEl = document.createElement('section');
-  for (var i = 0; i < maxElements; i++) {
-    var el = document.createElement('div');
-    el.style.background = colors[anime.random(0, 3)];
-    sectionEl.appendChild(el);
-  }
-  document.body.appendChild(sectionEl);
+  var sections = Array.prototype.slice.call(document.querySelectorAll('section'));
+  sections.forEach( function (sectionEl) {
+    for (var i = 0; i < maxElements; i++) {
+      var el = document.createElement('div');
+      el.style.background = colors[anime.random(0, 3)];
+      sectionEl.appendChild(el);
+    }
+    document.body.appendChild(sectionEl);
+  });
 })();
 
 anime({
@@ -19,7 +21,7 @@ anime({
   rotate: function() { return anime.random(-360, 360); },
   delay: function() { return 400 + anime.random(0, 500); },
   duration: function() { return anime.random(1000, 2000); },
-  direction: 'alternate',
-  loop: true
+  direction: 'alternate'
 });
+
 

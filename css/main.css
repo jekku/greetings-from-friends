@@ -6,14 +6,15 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #18212E;
+  background: #50514F;
 }
 
 section {
   display: flex;
   flex-wrap: wrap;
-  width: 22rem;
-  height: 22rem;
+  width: 6rem;
+  height: 6rem;
+  margin: 1rem;
 }
 
 div {
