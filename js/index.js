@@ -1,12 +1,21 @@
 var maxElements = 25;
 var colors = ['#F25F5C', '#FFE066', '#247BAO', '#70C1B3'];
+var bg = '#50514F';
+var display = 'JEKRI'.split('');
 
 var createElements = (function() {
   var sections = Array.prototype.slice.call(document.querySelectorAll('section'));
-  sections.forEach( function (sectionEl) {
+  sections.forEach( function (sectionEl, i) {
+    var letter = getLetter(display[i]);
     for (var i = 0; i < maxElements; i++) {
       var el = document.createElement('div');
-      el.style.background = colors[anime.random(0, 3)];
+      if (letter[i] === 1) {
+        el.style.background = colors[anime.random(0, 3)];
+      }
+
+      else {
+        el.style.background = bg;
+      }
       sectionEl.appendChild(el);
     }
     document.body.appendChild(sectionEl);
