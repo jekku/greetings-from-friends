@@ -1,4 +1,4 @@
-var maxElements = 16;
+var maxElements = 25;
 var colors = ['#F25F5C', '#FFE066', '#247BAO', '#70C1B3'];
 
 var createElements = (function() {
