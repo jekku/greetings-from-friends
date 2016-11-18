@@ -5,16 +5,15 @@ var display = 'JEKRI'.split('');
 
 var createElements = (function() {
   var sections = Array.prototype.slice.call(document.querySelectorAll('section'));
-  sections.forEach( function (sectionEl, i) {
-    var letter = getLetter(display[i]);
+  sections.forEach( function (sectionEl, l) {
+    var letter = getLetter(display[l]);
     for (var i = 0; i < maxElements; i++) {
       var el = document.createElement('div');
       if (letter[i] === 1) {
         el.style.background = colors[anime.random(0, 3)];
       }
-
       else {
-        el.style.background = bg;
+        el.style.opacity = 0.0;
       }
       sectionEl.appendChild(el);
     }
