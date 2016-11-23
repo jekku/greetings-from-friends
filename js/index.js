@@ -1,7 +1,7 @@
 var maxElements = 25;
 var colors = ['#F25F5C', '#FFE066', '#247BAO', '#70C1B3'];
 var bg = '#50514F';
-var display = 'HAYOP KA'.split('');
+var display = 'JEKRI'.split('');
 
 var createElements = (function() {
   var sections = Array.prototype.slice.call(document.querySelectorAll('section'));
