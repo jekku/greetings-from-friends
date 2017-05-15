@@ -12,14 +12,14 @@ body {
 section {
   display: flex;
   flex-wrap: wrap;
-  width: 5rem;
-  height: 5rem;
+  width: 25px;
+  height: 25px;
   margin: 1rem;
 }
 
 div {
-  width: 1rem;
-  height: 1rem;
+  width: 5px;
+  height: 5px;
   background: #FFF;
 }
 
