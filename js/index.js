@@ -9,6 +9,10 @@ var messages = [
     {
         message: 'BAGUL',
         sender: 'adin234'
+    },
+    {
+        message: 'HI PAPA',
+        sender: 'jvmsangkal'
     }
 ];
 
