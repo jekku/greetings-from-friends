@@ -76,7 +76,7 @@ anime({
     delay: function() { return 400 + anime.random(0, 500); },
     duration: function() { return anime.random(1000, 2000); },
     direction: 'alternate',
-    loop: true
+    loop: false
 });
 
 
