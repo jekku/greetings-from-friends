@@ -22,6 +22,10 @@ var messages = [
     {
         message: 'WTF :O',
         sender: 'FerrielMelarpis'
+    },
+    {
+        message: 'PAWER!',
+        sender: 'husme'
     }
 ];
 
