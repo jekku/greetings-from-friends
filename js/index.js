@@ -26,6 +26,10 @@ var messages = [
     {
         message: 'PAWER!',
         sender: 'husme'
+    },
+    {
+        message: 'HALLO',
+        sender: 'airondumael'
     }
 ];
 
