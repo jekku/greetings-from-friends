@@ -4,6 +4,10 @@ var bg = '#50514F';
 
 var messages = [
     {
+        message: 'hey'
+        sender: 'PaoloLlenado'
+    },
+    {
         message: 'LODI',
         sender: 'raims'
     },
