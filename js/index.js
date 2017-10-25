@@ -4,6 +4,9 @@ var bg = '#50514F';
 
 var messages = [
     {
+        message: 'HI PAPS',
+        sender: 'raegyl'
+    {
         message: 'IGOP',
         sender: 'roel'
     },
