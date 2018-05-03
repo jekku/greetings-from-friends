@@ -4,36 +4,39 @@ var bg = '#50514F';
 
 var messages = [
     {
-        message: 'IGOP',
-        sender: 'roel'
+      message: 'HI PAPS',
+      sender: 'raegyl'
+    {
+      message: 'IGOP',
+      sender: 'roel'
     },
     {
-        message: 'LODI',
-        sender: 'raims'
+      message: 'LODI',
+      sender: 'raims'
     },
     {
-        message: '>:3<',
-        sender: 'BurnzZ'
+      message: '>:3<',
+      sender: 'BurnzZ'
     },
     {
-        message: 'BAGUL',
-        sender: 'adin234'
+      message: 'BAGUL',
+      sender: 'adin234'
     },
     {
-        message: 'HIPAPA',
-        sender: 'jvmsangkal'
+      message: 'HIPAPA',
+      sender: 'jvmsangkal'
     },
     {
-        message: 'WTF :O',
-        sender: 'FerrielMelarpis'
+      message: 'WTF :O',
+      sender: 'FerrielMelarpis'
     },
     {
-        message: 'PAWER!',
-        sender: 'husme'
+      message: 'PAWER!',
+      sender: 'husme'
     },
     {
-        message: 'HALLO',
-        sender: 'airondumael'
+      message: 'HALLO',
+      sender: 'airondumael'
     }
 ];
 
